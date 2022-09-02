@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/pedro/Documentos/Disciplinas/CI1057_Alg3/trabalho2/phsc20'
+gcc -Wall -c main.c
+gcc -Wall -c libhash.c
+gcc -Wall -c parser.c
+gcc -o myht main.o libhash.o parser.o -lm
+echo "finished!"
+make: Leaving directory '/home/pedro/Documentos/Disciplinas/CI1057_Alg3/trabalho2/phsc20'
+ 
